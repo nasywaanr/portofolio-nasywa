@@ -1,0 +1,194 @@
+/* Gaya Umum */
+html {
+    scroll-behavior: smooth; /* Menambahkan efek smooth scrolling */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #e9ecef; /* Warna latar belakang yang lebih cerah */
+    color: #333;
+}
+
+/* Header */
+header {
+    position: relative;
+    background: linear-gradient(90deg, #4CAF50, #2E8B57);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+/* Gambar Profil */
+.profile-pic {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+/* Navigasi */
+nav {
+    background: #343a40; /* Warna latar belakang navigasi */
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Warna saat hover */
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.experience-container {
+    position: relative;
+    padding-left: 30px; /* Jarak untuk garis vertikal */
+}
+
+.experience-item {
+    position: relative;
+    margin-bottom: 20px; /* Jarak antar pengalaman */
+}
+
+.vertical-line {
+    position: absolute;
+    left: 10px; /* Posisi garis vertikal */
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Lebar garis */
+    background-color: #ccc; /* Warna garis */
+}
+
+.experience-content {
+    padding-left: 20px; /* Jarak antara garis dan konten */
+}
+
+
+/* Galeri */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+/* Bagian Hobi */
+#hobbies ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#hobbies ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#hobbies ul li i {
+    margin-right: 10px;
+    color: #4CAF50; /* Warna ikon */
+}
+
+.language-skill {
+    margin-bottom: 20px;
+    text-align: center; /* Pusatkan teks dan grafik */
+}
+
+.progress-circle {
+    width: 100px; /* Ukuran lingkaran */
+    height: 100px; /* Ukuran lingkaran */
+    border-radius: 50%; /* Membuat lingkaran */
+    background: conic-gradient(#4CAF50 calc(var(--percentage) * 1%), #e0e0e0 0); /* Warna lingkaran */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto; /* Pusatkan lingkaran */
+}
+
+.percentage {
+    position: absolute;
+    font-size: 1.2em; /* Ukuran teks persentase */
+    color: #333; /* Warna teks */
+}
+
+
+.progress {
+    background: #4CAF50; /* Warna progress */
+    height: 100%;
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out; /* Animasi smooth */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #343a40; /* Warna latar belakang footer */
+    color: white;
+    margin-top: 20px;
+}
