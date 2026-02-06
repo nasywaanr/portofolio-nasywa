@@ -1,140 +1,232 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Nasywa Nuraini</title>
-    <!-- Link ke file CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Link ke pustaka Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Nasywa Nuraini</title>
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header class="animate__animated animate__fadeInDown">
-        <img src="img/profile.jpg" alt="Foto Profil" class="profile-pic">
-        <h1>Portofolio Nasywa Nuraini</h1>
-    </header>
 
-    <nav class="animate__animated animate__fadeInUp">
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#experience">Work experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">skills</a></li>
-            <li><a href="#contact">contact</a></li>
-        </ul>
-    </nav>
+<div id="scroll-indicator"></div>
 
-    <section id="about" class="animate__animated animate__fadeInLeft">
-        <h2>About Me</h2>
-        <p>Saya adalah lulusan SMKN 1 Gunungputri jurusan Rekayasa Perangkat Lunak, sekarang saya mahasiswi aktif di Universitas Brawijaya pada Fakultas Vokasi Teknologi Informasi. Saya adalah pribadi yang aktif, kreatif, inovatif serta cekatan dan mampu bekerja sama dengan tim.</p>
-    </section>
 
-    <section id="education" class="animate__animated animate__fadeInLeft">
-        <h2>Education</h2>
-        <ul>
-            <li>Universitas Brawijaya (active)</li>
-        </ul>
+<header class="animate__animated animate__fadeInDown">
 
-    </section>
 
-        <section id="project" class="animate__animated animate__fadeInRight">
-        <h2>My Project</h2>
-        <ul>
-            <li>Pembuatan web aplikasi absensi karyawan/siswa</li>
-            <li>Pembuatan web aplikasi e-commerce</li>
-            <li>Pembuatan web aplikasi pembayaran SPP</li>
-            <li>Pengembangan IoT</li>
-            <li>Pembuatan Mobile Aplikasi</li>
-            <li>Project design</li>
-        </ul>
-    </section>
+<img src="img/profile.jpg" alt="Foto Profil" class="profile-pic">
 
-    <section id="experience" class="animate__animated animate__fadeInRight">
+
+<!-- Judul utama -->
+<h1 class="hero-title">
+Portofolio Nasywa Nuraini
+</h1>
+
+
+<!-- Subtitle slide di bawah foto -->
+<div class="hero-subtitle">
+<span class="slide-text active">Information Technology Student</span>
+<span class="slide-text">Web & Digital Enthusiast</span>
+</div>
+
+
+</header>
+
+
+<nav class="hero-nav">
+    <a href="#about"><i class="fas fa-user"></i></a>
+    <a href="#education"><i class="fas fa-graduation-cap"></i></a>
+    <a href="#project"><i class="fas fa-code"></i></a>
+    <a href="#experience"><i class="fas fa-briefcase"></i></a>
+    <a href="#skills"><i class="fas fa-layer-group"></i></a>
+    <a href="#gallery"><i class="fas fa-image"></i></a>
+    <a href="#hobbies"><i class="fas fa-heart"></i></a>
+    <a href="#languages"><i class="fas fa-language"></i></a>
+    <a href="#contact"><i class="fas fa-envelope"></i></a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about" class="animate__animated animate__fadeInLeft">
+    <h2>About Me</h2>
+    <p>
+        Saya adalah mahasiswa semester akhir Universitas Brawijaya Fakultas Vokasi
+        Program Studi Teknologi Informasi dengan latar belakang Rekayasa Perangkat Lunak.
+        Memiliki kemampuan dalam pengembangan web, manajemen waktu yang baik, serta
+        mampu bekerja secara kolaboratif maupun mandiri. Saya aktif, komunikatif, dan senang belajar hal baru,
+        serta berorientasi pada pengembangan diri di bidang teknologi.
+    </p>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="animate__animated animate__fadeInLeft">
+    <h2>Education</h2>
+    <ul>
+        <li>Universitas Brawijaya (Active)</li>
+    </ul>
+</section>
+
+<!-- PROJECT -->
+<section id="project" class="animate__animated animate__fadeInRight">
+    <h2>My Project</h2>
+    <ul>
+        <li>Web Aplikasi Absensi</li>
+        <li>Web Aplikasi E-Commerce</li>
+        <li>Web Aplikasi Pembayaran SPP</li>
+        <li>Pengembangan IoT</li>
+        <li>Mobile Application</li>
+        <li>Project Team Design</li>
+    </ul>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="animate__animated animate__fadeInRight">
     <h2>Work Experience</h2>
     <div class="experience-container">
+
         <div class="experience-item">
-            <div class="vertical-line"></div>
-            <div class="experience-content">
-                <i class="fas fa-briefcase"></i> 
-                Prakerin sebagai Staff Admin di PT. Restu Agung Narogong
-                <br><strong>Staff Administrasi / Human Resources</strong>
-                <br>Februari 2022 - April 2022
-            </div>
-        </div>
+    <div class="vertical-line"></div>
+    <div class="experience-content">
+        <span class="exp-number">01.</span>
+        <strong class="exp-title">Staff Administrasi / HR</strong><br>
+        PT. Restu Agung Narogong<br>
+        Februari 2022 – April 2022
+    </div>
+</div>
         <div class="experience-item">
-            <div class="vertical-line"></div>
-            <div class="experience-content">
-                <i class="fas fa-briefcase"></i> 
-                Prakerin sebagai Staff Divisi Keuangan di PT. Restu Agung Narogong
-                <br><strong>Staff Divisi Keuangan</strong>
-                <br>April 2022 - Mei 2022
-            </div>
-        </div>
+    <div class="vertical-line"></div>
+    <div class="experience-content">
+        <span class="exp-number">02.</span>
+        <strong class="exp-title"> Staff Divisi Keuangan</strong><br>
+        PT. Restu Agung Narogong<br>
+        April 2022 – Mei 2022
+    </div>
+</div>
+
         <div class="experience-item">
-            <div class="vertical-line"></div>
-            <div class="experience-content">
-                <i class="fas fa-user-md"></i> 
-                Ketua Palang Merah Remaja
-                <br>2018 - 2019
-            </div>
-        </div>
-        <div class="experience-item">
-            <div class="vertical-line"></div>
-            <div class="experience-content">
-                <i class="fas fa-chalkboard-teacher"></i> 
-                Pengajar di Masyarakat
-            </div>
-        <div class="experience-item">
-            <div class="vertical-line"></div>
-            <div class="experience-content">
-                <i class="fas fa-badminton"></i> 
-                Ketua UKM Badminton Vokasi Universitas Brawijaya 
-                <br>active
-            </div>
-        </div>
+    <div class="vertical-line"></div>
+    <div class="experience-content">
+        <span class="exp-number">03. </span>
+        <strong class="exp-title"> Ketua Palang Merah Remaja</strong><br>
+       2018 – 2020
+    </div>
+</div>
+
+       <div class="experience-item">
+    <div class="vertical-line"></div>
+    <div class="experience-content">
+        <span class="exp-number">04. </span>
+        <strong class="exp-title"> Project Manager (Internship)</strong><br>
+       CMLABS <br>
+        Agustus 2025 - Januari 2026
+    </div>
+</div>
+
+       <div class="experience-item">
+    <div class="vertical-line"></div>
+    <div class="experience-content">
+        <span class="exp-number">05. </span>
+        <strong class="exp-title"> Tenaga Pengajar Nonformal</strong><br>
+        Active
+    </div>
+</div>
+
+
+       <div class="experience-item">
+    <div class="vertical-line"></div>
+    <div class="experience-content">
+        <span class="exp-number">06. </span>
+        <strong class="exp-title"> KETUA UMUM UKM Badminton Vokasi Universitas Brawijaya</strong><br>
+        Active
+    </div>
+</div>
+
+
     </div>
 </section>
 
+<!-- SKILLS -->
+<section id="skills" class="animate__animated animate__fadeInRight">
+    <h2>Skills</h2>
 
+    <h3>Technical & Digital Skills</h3>
+    <ul>
+        <li>HTML, CSS, JavaScript (Dasar)</li>
+        <li>Pengembangan Web (Dasar)</li>
+        <li>UI/UX Design (Dasar)</li>
+        <li>Git & GitHub</li>
+        <li>Database (Dasar)</li>
+        <li>Mobile App Development (Dasar)</li>
+    </ul>
 
-    <section id="skills" class="animate__animated animate__fadeInRight">
-        <h2>Skills</h2>
-        <ul>
-            <li>Pengembangan web</li>
-            <li>Microsoft Office</li>
-            <li>Coding</li>
-            <li>Manajemen waktu</li>
-        </ul>
-    </section>
+    <h3>Project & Management Skills</h3>
+    <ul>
+        <li>Project Management</li>
+        <li>Koordinasi Tim</li>
+        <li>Manajemen Waktu & Prioritas</li>
+        <li>Komunikasi Stakeholder</li>
+        <li>Problem Solving</li>
+    </ul>
 
-    <section id="gallery" class="animate__animated animate__zoomIn">
-        <h2>Certificate & Desain</h2>
-        <div class="gallery">
-            <img src="img/1.jpg" alt="sertifikat1">
-            <img src="img/2.jpg" alt="sertifikat2">
-            <img src="img/3.jpg" alt="sertifikat3">
-            <img src="img/4.jpg" alt="sertifikat4">
-            <img src="img/5.jpg" alt="sertifikat5">
-            <img src="img/6.jpg" alt="sertifikat6">
-            <img src="img/7.jpg" alt="sertifikat7">
-            <img src="img/8.jpg" alt="sertifikat8">
-            <img src="img/9.jpg" alt="sertifikat9">
-            <img src="img/10.jpg" alt="sertifikat10">
-            <img src="img/11.jpg" alt="sertifikat11">
-            <img src="img/12.jpg" alt="sertifikat12">
-            <img src="img/13.jpg" alt="sertifikat13">
-            <img src="img/14.png" alt="sertifikat14">
-            <img src="img/15.png" alt="design1">
-            <img src="img/16.png" alt="design2">
-            <img src="img/17.png" alt="design3">
-            <img src="img/18.png" alt="design4">
-            <img src="img/19.png" alt="design5">
-            <img src="img/20.png" alt="design6">
-        </div>
-    </section>
+    <h3>Soft Skills</h3>
+    <ul>
+        <li>Komunikasi Efektif</li>
+        <li>Kerja Tim</li>
+        <li>Kepemimpinan Dasar</li>
+        <li>Adaptif & Cepat Belajar</li>
+        <li>Tanggung Jawab</li>
+    </ul>
+</section>
 
-    <section id="hobbies" class="animate__animated animate__fadeInLeft">
+<!-- GALLERY -->
+<section id="gallery" class="animate__animated animate__zoomIn">
+    <h2>Certificate & Design</h2>
+    <div class="gallery">
+        <img src="img/1.jpg" class="gallery-img">
+        <img src="img/2.jpg" class="gallery-img">
+        <img src="img/3.jpg" class="gallery-img">
+        <img src="img/4.jpg" class="gallery-img">
+        <img src="img/5.jpg" class="gallery-img">
+        <img src="img/6.jpg" class="gallery-img">
+        <img src="img/7.jpg" class="gallery-img">
+        <img src="img/8.jpg" class="gallery-img">
+        <img src="img/9.jpg" class="gallery-img">
+        <img src="img/10.jpg" class="gallery-img">
+        <img src="img/11.jpg" class="gallery-img">
+        <img src="img/12.jpg" class="gallery-img">
+        <img src="img/13.jpg" class="gallery-img">
+        <img src="img/14.png" class="gallery-img">
+        <img src="img/15.png" class="gallery-img">
+        <img src="img/16.png" class="gallery-img">
+        <img src="img/17.png" class="gallery-img">
+        <img src="img/18.png" class="gallery-img">
+        <img src="img/19.png" class="gallery-img">
+        <img src="img/20.png" class="gallery-img">
+        <img src="img/21.jpg" class="gallery-img">
+        <img src="img/22.png" class="gallery-img">
+        <img src="img/23.png" class="gallery-img">
+        <img src="img/24.png" class="gallery-img">
+    </div>
+</section>
+
+<!-- MODAL -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<!-- HOBBY -->
+<section id="hobbies" class="animate__animated animate__fadeInLeft">
     <h2>Hobby</h2>
     <ul>
         <li><i class="fas fa-utensils"></i> Memasak</li>
@@ -143,14 +235,14 @@
     </ul>
 </section>
 
+<!-- LANGUAGE -->
 <section id="languages" class="animate__animated animate__fadeInRight">
-        <h2>Language</h2>
-        <ul>
-            <li>Bahasa Indonesia</li>
-            <li>Bahasa Inggris</li>
-        </ul>
-    </section>
-
+    <h2>Language</h2>
+    <ul>
+        <li>Bahasa Indonesia</li>
+        <li>Bahasa Inggris</li>
+    </ul>
+</section>
 
    <section id="contact" class="animate__animated animate__fadeInUp">
     <h2>Contact</h2>
@@ -164,11 +256,56 @@
         <i class="fab fa-linkedin"></i> 
         LinkedIn: <a href="https://www.linkedin.com/in/nasywaa-nuraini-011480289" target="_blank">nasywaa-nuraini</a>
     </p>
+    <p>
+    <i class="fab fa-blogger-b"></i> 
+    Blogspot: 
+    <a href="https://www.blogger.com/profile/06713806799975979858" target="_blank">
+        nasywaa-nuraini
+    </a>
+</p>
+
 </section>
 
     <footer class="animate__animated animate__fadeIn">
-        <p>&copy; 2025 Nasywa Nuraini. All rights reserved.</p>
+        <p>&copy; 2026 Nasywa Nuraini. All rights reserved.</p>
         <p><i class="fas fa-map-marker-alt"></i> Alamat: JL. Pisang Agung 5 no 7, Sukun, Kota Malang</p>
     </footer>
+    <script>
+const slides = document.querySelectorAll(".slide-text");
+let index = 0;
+
+setInterval(() => {
+    slides.forEach(s => s.classList.remove("active"));
+    index = (index + 1) % slides.length;
+    slides[index].classList.add("active");
+}, 3000);
+/* Modal */
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImage");
+document.querySelectorAll(".gallery-img").forEach(img => {
+img.onclick = () => {
+modal.style.display = "flex";
+modalImg.src = img.src;
+};
+});
+document.querySelector(".close").onclick = () => modal.style.display = "none";
+
+
+/* Scroll indicator */
+const bar = document.getElementById("scroll-indicator");
+window.addEventListener("scroll", () => {
+const h = document.documentElement;
+bar.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100 + "%";
+});
+/* Scroll reveal */
+const sections = document.querySelectorAll("section");
+const observer = new IntersectionObserver(entries => {
+entries.forEach(e => e.isIntersecting && e.target.classList.add("show"));
+}, { threshold: 0.15 });
+sections.forEach(s => {
+s.classList.add("hidden");
+observer.observe(s);
+});
+</script>
 </body>
 </html>
